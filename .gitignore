@@ -1,2 +1,8 @@
 # Virtual Env
 venv/
+
+# DataBase
+db.sqlite3
+
+# Migrations
+blogs/Migrations/
