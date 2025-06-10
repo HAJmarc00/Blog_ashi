@@ -6,3 +6,10 @@ db.sqlite3
 
 # Migrations
 blogs/Migrations/
+blogs/__pycache__/
+
+# env
+.env
+
+# files
+files/
