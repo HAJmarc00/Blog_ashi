@@ -3874,3 +3874,10 @@ footer [class*="s-footer__"] > .row [class*="col-"]:last-child {
 }
 
 /*# sourceMappingURL=main.css.map */
+.post-image {
+    width: 1200px;
+    height: 1000px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
