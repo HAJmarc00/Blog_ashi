@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  blogyashi_postgresql:
+    image: postgres:15
+    container_name: blogyashi_postgresql
+    volumes:
+      - blogyashi_postgresql:/var/lib/postgresql/data
+    restart: always
+    env_file: .env
+    ports:
+      - "5432:5432"
+    networks:
+      - blogyashi_network
+
+volumes:
+  blogyashi_postgresql:
+    external: true
+
+networks:
+  blogyashi_network:
+    external: true
